@@ -1,0 +1,130 @@
+﻿Status,Team,Franchise,Lg,From,To,Yrs,G,W,L,W/L%,Plyfs,Div,Conf,Champ
+active,ATL,Atlanta Hawks,NBA,1949-50,2026-27,78,6102,3013,3088,.494,50,13,0,1
+active,ATL,Atlanta Hawks,NBA,1968-69,2026-27,59,4683,2315,2368,.494,37,7,0,0
+active,ATL,St. Louis Hawks,NBA,1955-56,1967-68,13,1005,553,452,.550,12,6,0,1
+active,ATL,Milwaukee Hawks,NBA,1951-52,1954-55,4,282,91,190,.324,0,0,0,0
+active,ATL,Tri-Cities Blackhawks,NBA,1949-50,1950-51,2,132,54,78,.409,1,0,0,0
+active,BOS,Boston Celtics,NBA/BAA,1946-47,2026-27,81,6278,3751,2527,.597,63,36,11,18
+active,NJN,Brooklyn Nets,NBA/ABA,1967-68,2026-27,60,4776,2074,2702,.434,31,5,2,2
+active,NJN,Brooklyn Nets,NBA,2012-13,2026-27,15,1128,492,636,.436,8,0,0,0
+active,NJN,New Jersey Nets,NBA,1977-78,2011-12,35,2822,1186,1636,.420,16,4,2,0
+active,NJN,New York Nets,NBA,1976-77,1976-77,1,82,22,60,.268,0,0,0,0
+active,NJN,New York Nets,ABA,1968-69,1975-76,8,666,338,328,.508,7,1,0,2
+active,NJN,New Jersey Americans,ABA,1967-68,1967-68,1,78,36,42,.462,0,0,0,0
+active,CHA,Charlotte Hornets,NBA,1988-89,2026-27,37,2877,1237,1640,.430,10,0,0,0
+active,CHA,Charlotte Hornets,NBA,2014-15,2026-27,13,957,402,555,.420,1,0,0,0
+active,CHA,Charlotte Bobcats,NBA,2004-05,2013-14,10,804,293,511,.364,2,0,0,0
+active,CHA,Charlotte Hornets,NBA,1988-89,2001-02,14,1116,542,574,.486,7,0,0,0
+active,CHI,Chicago Bulls,NBA,1966-67,2026-27,61,4844,2453,2391,.506,36,9,6,6
+active,CLE,Cleveland Cavaliers,NBA,1970-71,2026-27,57,4517,2148,2369,.476,26,8,5,1
+active,DAL,Dallas Mavericks,NBA,1980-81,2026-27,47,3707,1862,1845,.502,25,5,3,1
+active,DEN,Denver Nuggets,NBA/ABA,1967-68,2026-27,60,4777,2471,2306,.517,41,13,1,1
+active,DEN,Denver Nuggets,NBA,1976-77,2026-27,51,4033,2058,1975,.510,32,10,1,1
+active,DEN,Denver Nuggets,ABA,1974-75,1975-76,2,168,125,43,.744,2,2,0,0
+active,DEN,Denver Rockets,ABA,1967-68,1973-74,7,576,288,288,.500,7,1,0,0
+active,DET,Detroit Pistons,NBA/BAA,1948-49,2026-27,79,6162,2931,3231,.476,44,12,5,3
+active,DET,Detroit Pistons,NBA,1957-58,2026-27,70,5543,2618,2925,.472,36,10,5,3
+active,DET,Fort Wayne Pistons,NBA/BAA,1948-49,1956-57,9,619,313,306,.506,8,2,0,0
+active,GSW,Golden State Warriors,NBA/BAA,1946-47,2026-27,81,6268,3054,3213,.487,38,12,7,7
+active,GSW,Golden State Warriors,NBA,1971-72,2026-27,56,4435,2166,2269,.488,21,7,7,5
+active,GSW,San Francisco Warriors,NBA,1962-63,1970-71,9,729,330,399,.453,5,2,0,0
+active,GSW,Philadelphia Warriors,NBA/BAA,1946-47,1961-62,16,1104,558,545,.506,12,3,0,2
+active,HOU,Houston Rockets,NBA,1967-68,2026-27,60,4770,2473,2297,.518,36,9,4,2
+active,HOU,Houston Rockets,NBA,1971-72,2026-27,56,4442,2354,2088,.530,35,9,4,2
+active,HOU,San Diego Rockets,NBA,1967-68,1970-71,4,328,119,209,.363,1,0,0,0
+active,IND,Indiana Pacers,NBA/ABA,1967-68,2026-27,60,4776,2426,2350,.508,38,9,2,3
+active,IND,Indiana Pacers,NBA,1976-77,2026-27,51,4032,1999,2033,.496,29,6,2,0
+active,IND,Indiana Pacers,ABA,1967-68,1975-76,9,744,427,317,.574,9,3,0,3
+active,LAC,Los Angeles Clippers,NBA,1970-71,2026-27,57,4524,1935,2589,.428,19,3,0,0
+active,LAC,Los Angeles Clippers,NBA,1984-85,2026-27,43,3376,1490,1886,.441,16,3,0,0
+active,LAC,San Diego Clippers,NBA,1978-79,1983-84,6,492,186,306,.378,0,0,0,0
+active,LAC,Buffalo Braves,NBA,1970-71,1977-78,8,656,259,397,.395,3,0,0,0
+active,LAL,Los Angeles Lakers,NBA/BAA,1948-49,2026-27,79,6168,3653,2515,.592,66,35,19,17
+active,LAL,Los Angeles Lakers,NBA,1960-61,2026-27,67,5329,3196,2133,.600,55,31,19,12
+active,LAL,Minneapolis Lakers,NBA/BAA,1948-49,1959-60,12,839,457,382,.545,11,4,0,5
+active,MEM,Memphis Grizzlies,NBA,1995-96,2026-27,32,2475,1071,1404,.433,14,2,0,0
+active,MEM,Memphis Grizzlies,NBA,2001-02,2026-27,26,2015,970,1045,.481,14,2,0,0
+active,MEM,Vancouver Grizzlies,NBA,1995-96,2000-01,6,460,101,359,.220,0,0,0,0
+active,MIA,Miami Heat,NBA,1988-89,2026-27,39,3049,1601,1448,.525,26,16,7,3
+active,MIL,Milwaukee Bucks,NBA,1968-69,2026-27,59,4689,2469,2220,.527,37,19,3,2
+active,MIN,Minnesota Timberwolves,NBA,1989-90,2026-27,38,2958,1245,1713,.421,14,1,0,0
+active,NOH,New Orleans Pelicans,NBA,2002-03,2026-27,25,1932,878,1054,.454,9,1,0,0
+active,NOH,New Orleans Pelicans,NBA,2013-14,2026-27,14,1046,459,587,.439,4,0,0,0
+active,NOH,NO/Ok. City Hornets,NBA,2005-06,2006-07,2,164,77,87,.470,0,0,0,0
+active,NOH,New Orleans Hornets,NBA,2002-03,2012-13,9,722,342,380,.474,5,1,0,0
+active,NYK,New York Knicks,NBA/BAA,1946-47,2026-27,81,6269,3078,3191,.491,47,8,5,3
+active,OKC,Oklahoma City Thunder,NBA,1967-68,2026-27,60,4770,2602,2168,.545,35,14,5,2
+active,OKC,Oklahoma City Thunder,NBA,2008-09,2026-27,19,1440,857,583,.595,13,8,2,1
+active,OKC,Seattle SuperSonics,NBA,1967-68,2007-08,41,3330,1745,1585,.524,22,6,3,1
+active,ORL,Orlando Magic,NBA,1989-90,2026-27,38,2967,1401,1566,.472,19,8,2,0
+active,PHI,Philadelphia 76ers,NBA,1949-50,2026-27,78,6105,3170,2935,.519,55,12,5,3
+active,PHI,Philadelphia 76ers,NBA,1963-64,2026-27,64,5092,2594,2498,.509,41,9,5,2
+active,PHI,Syracuse Nationals,NBA,1949-50,1962-63,14,1013,576,437,.569,14,3,0,1
+active,PHO,Phoenix Suns,NBA,1968-69,2026-27,59,4689,2510,2179,.535,34,8,3,0
+active,POR,Portland Trail Blazers,NBA,1970-71,2026-27,57,4526,2370,2156,.524,38,6,3,1
+active,SAC,Sacramento Kings,NBA/BAA,1948-49,2026-27,79,6169,2810,3359,.456,30,6,0,1
+active,SAC,Sacramento Kings,NBA,1985-86,2026-27,42,3294,1404,1890,.426,11,3,0,0
+active,SAC,Kansas City Kings,NBA,1975-76,1984-85,10,820,381,439,.465,4,1,0,0
+active,SAC,Kansas City-Omaha Kings,NBA,1972-73,1974-75,3,246,113,133,.459,1,0,0,0
+active,SAC,Cincinnati Royals,NBA,1957-58,1971-72,15,1189,555,634,.467,7,0,0,0
+active,SAC,Rochester Royals,NBA/BAA,1948-49,1956-57,9,620,357,263,.576,7,2,0,1
+active,SAS,San Antonio Spurs,NBA/ABA,1967-68,2026-27,60,4775,2779,1996,.582,48,23,7,5
+active,SAS,San Antonio Spurs,NBA,1976-77,2026-27,51,4031,2401,1630,.596,40,23,7,5
+active,SAS,San Antonio Spurs,ABA,1973-74,1975-76,3,252,146,106,.579,3,0,0,0
+active,SAS,Texas Chaparrals,ABA,1970-71,1970-71,1,84,30,54,.357,1,0,0,0
+active,SAS,Dallas Chaparrals,ABA,1967-68,1972-73,5,408,202,206,.495,4,0,0,0
+active,TOR,Toronto Raptors,NBA,1995-96,2026-27,32,2474,1172,1302,.474,14,7,1,1
+active,UTA,Utah Jazz,NBA,1974-75,2026-27,53,4196,2216,1980,.528,31,11,2,0
+active,UTA,Utah Jazz,NBA,1979-80,2026-27,48,3786,2055,1731,.543,31,11,2,0
+active,UTA,New Orleans Jazz,NBA,1974-75,1978-79,5,410,161,249,.393,0,0,0,0
+active,WAS,Washington Wizards,NBA,1961-62,2026-27,66,5251,2307,2944,.439,30,8,4,1
+active,WAS,Washington Wizards,NBA,1997-98,2026-27,30,2310,929,1381,.402,9,1,0,0
+active,WAS,Washington Bullets,NBA,1974-75,1996-97,23,1886,887,999,.470,13,2,3,1
+active,WAS,Capital Bullets,NBA,1973-74,1973-74,1,82,47,35,.573,1,1,0,0
+active,WAS,Baltimore Bullets,NBA,1963-64,1972-73,10,813,401,412,.493,7,4,1,0
+active,WAS,Chicago Zephyrs,NBA,1962-63,1962-63,1,80,25,55,.313,0,0,0,0
+active,WAS,Chicago Packers,NBA,1961-62,1961-62,1,80,18,62,.225,0,0,0,0
+defunct,AND,Anderson Packers,NBA,1949-50,1949-50,1,64,37,27,.578,1,0,0,0
+defunct,BLB,Baltimore Bullets,NBA/BAA,1947-48,1954-55,8,450,158,292,.351,3,0,0,1
+defunct,CHS,Chicago Stags,NBA/BAA,1946-47,1949-50,4,237,145,92,.612,4,1,0,0
+defunct,CLR,Cleveland Rebels,BAA,1946-47,1946-47,1,60,30,30,.500,1,0,0,0
+defunct,DNN,Denver Nuggets,NBA,1949-50,1949-50,1,62,11,51,.177,0,0,0,0
+defunct,DTF,Detroit Falcons,BAA,1946-47,1946-47,1,60,20,40,.333,0,0,0,0
+defunct,INJ,Indianapolis Jets,BAA,1948-49,1948-49,1,60,18,42,.300,0,0,0,0
+defunct,INO,Indianapolis Olympians,NBA,1949-50,1952-53,4,269,132,137,.491,4,1,0,0
+defunct,KEN,Kentucky Colonels,ABA,1967-68,1975-76,9,744,448,296,.602,9,2,0,1
+defunct,MMS,Memphis Sounds,ABA,1967-68,1974-75,8,660,275,385,.417,4,1,0,0
+defunct,MMS,Memphis Sounds,ABA,1974-75,1974-75,1,84,27,57,.321,1,0,0,0
+defunct,MMS,Memphis Tams,ABA,1972-73,1973-74,2,168,45,123,.268,0,0,0,0
+defunct,MMS,Memphis Pros,ABA,1970-71,1971-72,2,168,67,101,.399,1,0,0,0
+defunct,MMS,New Orleans Buccaneers,ABA,1967-68,1969-70,3,240,136,104,.567,2,1,0,0
+defunct,PTC,Pittsburgh Condors,ABA,1967-68,1971-72,5,408,180,228,.441,2,1,0,1
+defunct,PTC,Pittsburgh Condors,ABA,1970-71,1971-72,2,168,61,107,.363,0,0,0,0
+defunct,PTC,Minnesota Pipers,ABA,1968-69,1968-69,1,78,36,42,.462,1,0,0,0
+defunct,PTC,Pittsburgh Pipers,ABA,1967-68,1969-70,2,162,83,79,.512,1,1,0,1
+defunct,PIT,Pittsburgh Ironmen,BAA,1946-47,1946-47,1,60,15,45,.250,0,0,0,0
+defunct,PRO,Providence Steamrollers,BAA,1946-47,1948-49,3,168,46,122,.274,0,0,0,0
+defunct,SDS,San Diego Sails,ABA,1972-73,1975-76,4,263,101,162,.384,2,0,0,0
+defunct,SDS,San Diego Sails,ABA,1975-76,1975-76,1,11,3,8,.273,0,,0,0
+defunct,SDS,San Diego Conquistadors,ABA,1972-73,1974-75,3,252,98,154,.389,2,0,0,0
+defunct,SHE,Sheboygan Red Skins,NBA,1949-50,1949-50,1,62,22,40,.355,1,0,0,0
+defunct,SSL,Spirits of St. Louis,ABA,1967-68,1975-76,9,744,334,410,.449,5,1,0,0
+defunct,SSL,Spirits of St. Louis,ABA,1974-75,1975-76,2,168,67,101,.399,1,0,0,0
+defunct,SSL,Carolina Cougars,ABA,1969-70,1973-74,5,420,215,205,.512,3,1,0,0
+defunct,SSL,Houston Mavericks,ABA,1967-68,1968-69,2,156,52,104,.333,1,0,0,0
+defunct,STB,St. Louis Bombers,NBA/BAA,1946-47,1949-50,4,237,122,115,.515,3,1,0,0
+defunct,FLO,The Floridians,ABA,1967-68,1971-72,5,408,189,219,.463,4,0,0,0
+defunct,FLO,The Floridians,ABA,1970-71,1971-72,2,168,73,95,.435,2,0,0,0
+defunct,FLO,Miami Floridians,ABA,1968-69,1969-70,2,162,66,96,.407,1,0,0,0
+defunct,FLO,Minnesota Muskies,ABA,1967-68,1967-68,1,78,50,28,.641,1,0,0,0
+defunct,TRH,Toronto Huskies,BAA,1946-47,1946-47,1,60,22,38,.367,0,0,0,0
+defunct,UTS,Utah Stars,ABA,1967-68,1975-76,9,676,366,310,.541,6,3,0,1
+defunct,UTS,Utah Stars,ABA,1970-71,1975-76,6,436,265,171,.608,5,3,0,1
+defunct,UTS,Los Angeles Stars,ABA,1968-69,1969-70,2,162,76,86,.469,1,0,0,0
+defunct,UTS,Anaheim Amigos,ABA,1967-68,1967-68,1,78,25,53,.321,0,0,0,0
+defunct,VIR,Virginia Squires,ABA,1967-68,1975-76,9,743,326,417,.439,6,2,0,1
+defunct,VIR,Virginia Squires,ABA,1970-71,1975-76,6,503,200,303,.398,4,1,0,0
+defunct,VIR,Washington Capitols,ABA,1969-70,1969-70,1,84,44,40,.524,1,0,0,0
+defunct,VIR,Oakland Oaks,ABA,1967-68,1968-69,2,156,82,74,.526,1,1,0,1
+defunct,WSC,Washington Capitols,NBA/BAA,1946-47,1950-51,5,271,157,114,.579,4,2,0,0
+defunct,WAT,Waterloo Hawks,NBA,1949-50,1949-50,1,62,19,43,.306,0,0,0,0
