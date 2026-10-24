@@ -20,6 +20,21 @@ class NBADataCleaner:
     def __init__(self, data_dir="."):
         self.data_dir = data_dir
 
+    def _resolve_path(self, filename):
+        if not filename:
+            return filename
+        if os.path.isabs(filename) and os.path.exists(filename):
+            return filename
+        candidates = [
+            os.path.join(self.data_dir, filename),
+            os.path.join('Raw data', filename),
+            os.path.join('.', filename)
+        ]
+        for p in candidates:
+            if os.path.exists(p):
+                return p
+        return os.path.join(self.data_dir, filename)
+
     @staticmethod
     def fix_mojibake(text):
         """
@@ -108,7 +123,7 @@ class NBADataCleaner:
         - Parse weight (lbs & kg)
         - Parse birth date to datetime
         """
-        path = path or os.path.join(self.data_dir, 'players.csv')
+        path = self._resolve_path(path or 'players.csv')
         df = pd.read_csv(path)
         
         df['Player_Clean'] = df['Player'].apply(self.clean_player_name)
@@ -130,7 +145,7 @@ class NBADataCleaner:
         - Convert 'R' to 0 in experience
         - Parse birth date
         """
-        path = path or os.path.join(self.data_dir, 'rosters.csv')
+        path = self._resolve_path(path or 'rosters.csv')
         df = pd.read_csv(path)
         
         df['Player_Clean'] = df['Player'].apply(self.clean_player_name)
@@ -153,7 +168,7 @@ class NBADataCleaner:
         - Flag multi-team traded player rows (e.g. '2TM', '3TM')
         - Fill 0/0 percentage NaNs where attempts were 0
         """
-        path = os.path.join(self.data_dir, filename)
+        path = self._resolve_path(filename)
         df = pd.read_csv(path)
         
         # Remove League Average
@@ -180,7 +195,7 @@ class NBADataCleaner:
         - Normalize names
         - Convert numeric types
         """
-        path = path or os.path.join(self.data_dir, 'micheal_jordan_trophy.csv')
+        path = self._resolve_path(path or 'micheal_jordan_trophy.csv')
         df = pd.read_csv(path)
         
         df['Player_Clean'] = df['Player'].apply(self.clean_player_name)
@@ -196,7 +211,7 @@ class NBADataCleaner:
         - Normalize names
         - Parse salary into float
         """
-        path = path or os.path.join(self.data_dir, 'rosters_salaries.csv')
+        path = self._resolve_path(path or 'rosters_salaries.csv')
         df = pd.read_csv(path)
         
         if 'Unnamed: 3' in df.columns:
@@ -214,7 +229,7 @@ class NBADataCleaner:
         - Filter out header repetitions and non-season rows
         - Extract clean player names and values for awards and league leaders
         """
-        path = path or os.path.join(self.data_dir, 'seasons.csv')
+        path = self._resolve_path(path or 'seasons.csv')
         df = pd.read_csv(path)
         
         # Keep valid seasons (format: YYYY-YY or similar)
@@ -232,7 +247,7 @@ class NBADataCleaner:
         """
         Clean teams.csv
         """
-        path = path or os.path.join(self.data_dir, 'teams.csv')
+        path = self._resolve_path(path or 'teams.csv')
         df = pd.read_csv(path)
         return df
 
@@ -242,7 +257,7 @@ class NBADataCleaner:
         - Drop 100% null divider columns (Unnamed: 8, Unnamed: 15)
         - Clean playoff asterisks from Team name
         """
-        path = path or os.path.join(self.data_dir, 'teams_all_season.csv')
+        path = self._resolve_path(path or 'teams_all_season.csv')
         df = pd.read_csv(path)
         
         # Drop empty columns
