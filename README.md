@@ -38,7 +38,7 @@ basketball-reference-q6/
 │
 ├── Hypothesis Test/                             # فاز سوم - بخش دوم: آزمون‌های فرضیه آماری
 │   ├── Hypothesis_test.ipynb                    # آزمون‌های فرض چابکی، توانایی ذاتی و خوشه‌بندی
-│   └── Readme.text
+│   
 │
 ├── script/                                      # اسکریپت‌ها و ماژول‌های پردازشی پروژه
 │   ├── NBA.ipynb                                # طراحی و بارگذاری اولیه دیتابیس MySQL
@@ -69,7 +69,7 @@ basketball-reference-q6/
 │       ├── season_totals.csv
 │       ├── team.csv
 │       ├── team_season.csv
-│       └── readme.text
+│       
 │
 ├── clean_and_engineered_data/                   # دادگان تمیز و مهندسی ویژگی‌های نهایی
 │   ├── individual_tables/                       # جداول تکی پاکسازی و مهندسی‌شده
@@ -80,7 +80,7 @@ basketball-reference-q6/
 │   │   ├── rosters_cleaned_and_engineered.csv
 │   │   ├── rosters_salaries_cleaned_and_engineered.csv
 │   │   ├── totals_pss_cleaned_and_engineered.csv
-│   │   └── readme.txt
+│   │   
 │   ├── cross_table/                             # جداول تحلیلی ترکیبی چندجدولی
 │   │   ├── cross_agility_innate_hypothesis.csv
 │   │   ├── cross_champions_vs_top_players.csv
