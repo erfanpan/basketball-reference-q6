@@ -1,4 +1,4 @@
-# 🏀 NBA Basketball Reference: End-to-End Analytics Pipeline
+# 🏀 NBA Basketball Reference: Analytics Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Database](https://img.shields.io/badge/RDBMS-MySQL%20%7C%20SQLite-003B57.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
@@ -11,7 +11,13 @@
 > خط لوله جامع و یکپارچه تحلیل آماری، وب‌اسکرپینگ، پایگاه‌داده رابطه‌ای و تست فرض داده‌های لیگ NBA مرجع Basketball-Reference (فصول ۱۹۸۰ تا ۲۰۲۷).
 
 ---
-
+##**گروه 6**
+عرفان پوراحمدنژاد 
+سارا سلگی 
+ستایش یاری 
+مهدی آزادیان
+محمد رستم نژاد
+منتور : آرمان آقانیا
 ## 📌 معرفی کلی پروژه (Project Overview)
 
 این پروژه یک پیاده‌سازی گام‌به‌گام از کل چرخه حیات داده (**Full Data Lifecycle**) است که شامل مراحل زیر می‌باشد:
