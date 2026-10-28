@@ -105,8 +105,8 @@ basketball-reference-q6/
 
 ### ۱. کلون کردن مخزن و نصب پیش‌نیازها:
 ```bash
-git clone https://github.com/your-username/nba-analytics-pipeline.git
-cd nba-analytics-pipeline
+git clone https://github.com/erfanpan/basketball-reference-q6.git
+cd basketball-reference-q6
 pip install -r requirements.txt
 ```
 
