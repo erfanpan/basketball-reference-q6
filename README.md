@@ -29,43 +29,95 @@
 ```text
 basketball-reference-q6/
 │
-├── NBA_Merged_Master_Pipeline.ipynb             # نوت‌بوک اصلی و یکپارچه شامل کل فازها از صفر تا صد
-├── NBA_Databases.ipynb                          # نوت‌بوک اختصاصی مدیریت دیتابیس‌ها و کوئری‌های SQL
+├── Finall_result_notebook/                      # نوت‌بوک‌های نهایی و مستر پروژه
+│   ├── NBA_Merged_Master_Pipeline.ipynb         # نوت‌بوک یکپارچه کل فازها از وب‌اسکرپینگ تا آزمون فرض
+│   └── NBA_Databases.ipynb                      # نوت‌بوک مدیریت پایگاه‌داده‌ها، رجیستری SQL و کوئری‌ها
 │
-├── scraping.py                                  # اسکریپت وب‌اسکرپینگ با BeautifulSoup و requests_cache
+├── Descriptive Statistics/                      # فاز سوم - بخش اول: تحلیل‌های آمار توصیفی
+│   └── Descriptive_Statistics_Engineered.ipynb  # پاسخ به ۳ سؤال توصیفی کوئرا
 │
-├── Data Base/                                   # معماری پایگاه‌داده رابطه‌ای
-│   ├── tables_csv/                              # ۱۱ جدول تفکیک‌شده و نرمال (CSV)
+├── Hypothesis Test/                             # فاز سوم - بخش دوم: آزمون‌های فرضیه آماری
+│   ├── Hypothesis_test.ipynb                    # آزمون‌های فرض چابکی، توانایی ذاتی و خوشه‌بندی
+│   └── Readme.text
+│
+├── script/                                      # اسکریپت‌ها و ماژول‌های پردازشی پروژه
+│   ├── NBA.ipynb                                # طراحی و بارگذاری اولیه دیتابیس MySQL
+│   ├── __init__.py
+│   ├── clean_and_feature_engineer.py            # استخراج از دیتابیس و مهندسی ویژگی‌ها
+│   ├── data_cleaner.py                          # کلاس جامع پالایش داده‌ها
+│   ├── feature_engineer.py                      # کلاس مهندسی ویژگی‌ها
+│   ├── generate_mysql_dump.py                   # ساخت جداول نرمال و اسکریپت‌های SQL
+│   ├── run_clean_data_pipeline.py               # پایپ‌لاین اجرای پالایش و مهندسی داده
+│   ├── run_complete_pipeline.py                 # اجرای کامل خط لوله داده
+│   ├── scraping.py                              # اسکریپت وب‌اسکرپینگ از Basketball Reference
+│   └── table_by_table_feature_engineer.py       # مهندسی ویژگی جدول‌به‌جدول و جداول کراس
+│
+├── Data Base/                                   # معماری پایگاه‌داده رابطه‌ای و اسکریپت‌ها
 │   ├── load_data.sql                            # بارگذاری فوق‌سریع MySQL با LOAD DATA LOCAL INFILE
 │   ├── nba_db.sql                               # دامپ کامل و مستقل MySQL (فصول ۱۹۸۰ تا ۲۰۲۷)
-│   ├── nba_analytics.db                         # پایگاه داده رابطه‌ای سبک SQLite
-│   └── nba_analytics.sql                        # دامپ SQL پایگاه داده رابطه‌ای
+│   ├── nba_analytics(sql).zip                   # نسخه فشرده دامپ SQL
+│   ├── nba_analytics.rar                        # نسخه فشرده پایگاه داده
+│   └── tables_csv/                              # ۱۱ جدول تفکیک‌شده و نرمال ۳NF
+│       ├── college.csv
+│       ├── mvp_vote.csv
+│       ├── player.csv
+│       ├── player_college.csv
+│       ├── player_season.csv
+│       ├── player_season_award.csv
+│       ├── season.csv
+│       ├── season_advanced.csv
+│       ├── season_totals.csv
+│       ├── team.csv
+│       ├── team_season.csv
+│       └── readme.text
 │
-├── clean_and_engineered_data/                   # خروجی نهایی داده‌های تمیز و ویژگی‌های جدید
-│   ├── individual_tables/                       # ۱۰ جدول تکی پاکسازی و مهندسی‌شده (CSV)
-│   ├── cross_tables/                            # ۵ جدول تحلیلی ترکیبی چندجدولی (CSV)
-│   ├── nba_all_clean_and_engineered.db          # پایگاه داده تجمیعی تمام ۱۵ جدول (SQLite)
-│   └── nba_all_clean_and_engineered.sql         # دامپ کامل SQL پایگاه تحلیلی (۴۴.۷ مگابایت)
+├── clean_and_engineered_data/                   # دادگان تمیز و مهندسی ویژگی‌های نهایی
+│   ├── individual_tables/                       # جداول تکی پاکسازی و مهندسی‌شده
+│   │   ├── advanced_pss_cleaned_and_engineered.csv
+│   │   ├── micheal_jordan_trophy_cleaned_and_engineered.csv
+│   │   ├── per_game_pss_cleaned_and_engineered.csv
+│   │   ├── players_cleaned_and_engineered.csv
+│   │   ├── rosters_cleaned_and_engineered.csv
+│   │   ├── rosters_salaries_cleaned_and_engineered.csv
+│   │   ├── totals_pss_cleaned_and_engineered.csv
+│   │   └── readme.txt
+│   ├── cross_table/                             # جداول تحلیلی ترکیبی چندجدولی
+│   │   ├── cross_agility_innate_hypothesis.csv
+│   │   ├── cross_champions_vs_top_players.csv
+│   │   ├── cross_pg_mjt_scouting_candidates.csv
+│   │   ├── cross_player_master_features.csv
+│   │   ├── cross_salary_vs_performance.csv
+│   │   └── readme.txt
+│   └── nba_all_clean_and_engineered.zip         # پایگاه داده تجمیعی SQLite فشرده‌شده
 │
-├── Raw data/                                    # داده‌های خام استخراج شده از وب (۱۰ فایل CSV)
+├── cleaned-data/                                # دادگان میانی پالایش‌شده
+│   ├── advanced_cleaned.csv
+│   ├── mjt_cleaned.csv
+│   ├── per_game_cleaned.csv
+│   ├── pg_mjt_candidates.csv
+│   ├── player_master_features.csv
+│   ├── players_cleaned.csv
+│   ├── rosters_cleaned.csv
+│   ├── salaries_cleaned.csv
+│   ├── seasons_cleaned.csv
+│   ├── teams_all_season_cleaned.csv
+│   ├── teams_cleaned.csv
+│   └── totals_cleaned.csv
 │
-├── script/                                      # اسکریپت‌ها و ماژول‌های پروژه (OOP & Pipeline)
-│   ├── NBA.ipynb
-│   ├── clean_and_feature_engineer.py
-│   ├── data_cleaner.py
-│   ├── feature_engineer.py
-│   ├── generate_mysql_dump.py
-│   ├── run_clean_data_pipeline.py
-│   ├── run_complete_pipeline.py
-│   ├── scraping.py
-│   └── table_by_table_feature_engineer.py
+├── Raw data/                                    # ۱۰ فایل خام اولیه استخراج‌شده از وب
+│   ├── advanced_pss.csv
+│   ├── micheal_jordan_trophy.csv
+│   ├── per_game_pss.csv
+│   ├── players.csv
+│   ├── rosters.csv
+│   ├── rosters_salaries.csv
+│   ├── seasons.csv
+│   ├── teams.csv
+│   ├── teams_all_season.csv
+│   └── totals_pss.csv
 │
-|---Hypothesis Testing                           #تست فرض
-|
 ├── requirements.txt                             # لیست پکیج‌ها و پیش‌نیازهای پروژه
-|
-└── README.md                                    # مستندات معرفی پروژه
-```
+└── README.md                                    # مستندات جامع مخزن```
 
 ---
 
