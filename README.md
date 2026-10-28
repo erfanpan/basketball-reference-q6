@@ -57,7 +57,7 @@ basketball-reference-q6/
 |---Hypothesis Testing                           #تست فرض
 |
 ├── requirements.txt                             # لیست پکیج‌ها و پیش‌نیازهای پروژه
-├── .gitignore                                   # فیلتر فایل‌های اضافه محیط توسعه
+|
 └── README.md                                    # مستندات معرفی پروژه
 ```
 
