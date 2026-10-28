@@ -33,16 +33,15 @@ basketball-reference-q6/
 │   ├── NBA_Merged_Master_Pipeline.ipynb         # نوت‌بوک یکپارچه کل فازها از وب‌اسکرپینگ تا آزمون فرض
 │   └── NBA_Databases.ipynb                      # نوت‌بوک مدیریت پایگاه‌داده‌ها، رجیستری SQL و کوئری‌ها
 │
-├── Descriptive Statistics/                      # فاز سوم - بخش اول: تحلیل‌های آمار توصیفی
-│   └── Descriptive_Statistics_Engineered.ipynb  # پاسخ به ۳ سؤال توصیفی کوئرا
+├── Descriptive Statistics/                      #  تحلیل‌های آمار توصیفی
+│   └── Descriptive_Statistics_Engineered.ipynb  # 
 │
-├── Hypothesis Test/                             # فاز سوم - بخش دوم: آزمون‌های فرضیه آماری
+├── Hypothesis Test/                             #  آزمون‌های فرضیه آماری
 │   ├── Hypothesis_test.ipynb                    # آزمون‌های فرض چابکی، توانایی ذاتی و خوشه‌بندی
 │   
 │
 ├── script/                                      # اسکریپت‌ها و ماژول‌های پردازشی پروژه
 │   ├── NBA.ipynb                                # طراحی و بارگذاری اولیه دیتابیس MySQL
-│   ├── __init__.py
 │   ├── clean_and_feature_engineer.py            # استخراج از دیتابیس و مهندسی ویژگی‌ها
 │   ├── data_cleaner.py                          # کلاس جامع پالایش داده‌ها
 │   ├── feature_engineer.py                      # کلاس مهندسی ویژگی‌ها
@@ -104,7 +103,7 @@ basketball-reference-q6/
 │   ├── teams_cleaned.csv
 │   └── totals_cleaned.csv
 │
-├── Raw data/                                    # ۱۰ فایل خام اولیه استخراج‌شده از وب
+├── Raw data/                                    #  فایل خام اولیه استخراج‌شده  
 │   ├── advanced_pss.csv
 │   ├── micheal_jordan_trophy.csv
 │   ├── per_game_pss.csv
