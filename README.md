@@ -87,7 +87,7 @@ basketball-reference-q6/
 │   │   ├── cross_pg_mjt_scouting_candidates.csv
 │   │   ├── cross_player_master_features.csv
 │   │   ├── cross_salary_vs_performance.csv
-│   │   └── readme.txt
+│   │   
 │   └── nba_all_clean_and_engineered.zip         # پایگاه داده تجمیعی SQLite فشرده‌شده
 │
 ├── cleaned-data/                                # دادگان میانی پالایش‌شده
