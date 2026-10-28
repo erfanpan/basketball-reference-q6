@@ -7,8 +7,8 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-K--Means-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Status](https://img.shields.io/badge/Project_Status-Completed-success.svg)]()
 
-> **پروژه اول بوت‌کمپ تحلیل داده کوئرا (تابستان ۱۴۰۵)**  
-> خط لوله جامع و یکپارچه تحلیل آماری، وب‌اسکرپینگ، پایگاه‌داده رابطه‌ای و تست فرض داده‌های لیگ NBA مرجع Basketball-Reference (فصول ۱۹۸۰ تا ۲۰۲۷).
+> **پروژه نهایی بوت‌کمپ تحلیل داده کوئرا (تابستان ۱۴۰۵)**  
+> تحلیل آماری، وب‌اسکرپینگ، پایگاه‌داده رابطه‌ای و تست فرض داده‌های لیگ NBA مرجع Basketball-Reference (فصول ۱۹۸۰ تا ۲۰۲۷).
 
 ---
 
