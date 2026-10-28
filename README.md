@@ -49,10 +49,16 @@ basketball-reference-q6/
 │
 ├── Raw data/                                    # داده‌های خام استخراج شده از وب (۱۰ فایل CSV)
 │
-├── src/                                         # کدهای ماژولار شیءگرا (OOP)
-│   ├── data_cleaner.py                          # ماژول پاکسازی داده‌های متنی و عددی
-│   ├── clean_and_feature_engineer.py            # استخراج از دیتابیس و مهندسی ویژگی‌ها
-│   └── generate_mysql_dump.py                   # ساخت جداول نرمال و اسکریپت‌های بارگذاری
+├── script/                                      # اسکریپت‌ها و ماژول‌های پروژه (OOP & Pipeline)
+│   ├── NBA.ipynb
+│   ├── clean_and_feature_engineer.py
+│   ├── data_cleaner.py
+│   ├── feature_engineer.py
+│   ├── generate_mysql_dump.py
+│   ├── run_clean_data_pipeline.py
+│   ├── run_complete_pipeline.py
+│   ├── scraping.py
+│   └── table_by_table_feature_engineer.py
 │
 |---Hypothesis Testing                           #تست فرض
 |
