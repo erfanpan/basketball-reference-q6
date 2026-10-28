@@ -54,6 +54,8 @@ basketball-reference-q6/
 │   ├── clean_and_feature_engineer.py            # استخراج از دیتابیس و مهندسی ویژگی‌ها
 │   └── generate_mysql_dump.py                   # ساخت جداول نرمال و اسکریپت‌های بارگذاری
 │
+|---Hypothesis Testing                           #تست فرض
+|
 ├── requirements.txt                             # لیست پکیج‌ها و پیش‌نیازهای پروژه
 ├── .gitignore                                   # فیلتر فایل‌های اضافه محیط توسعه
 └── README.md                                    # مستندات معرفی پروژه
